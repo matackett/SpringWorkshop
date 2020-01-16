@@ -110,7 +110,7 @@ RStudio.
 ``` r
 library(dplyr)
 library(ggplot2)
-library(statsr)
+#library(statsr)
 library(usethis)
 ```
 
