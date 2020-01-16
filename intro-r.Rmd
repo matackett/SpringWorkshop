@@ -8,7 +8,7 @@ output: github_document
 <div class="instructions">
 
 </div>
-## Getting Started
+## Yay we've started!
 
 If you have not ever used GitHub, you will first need to go in and create an account.
 Look at the guidlines on Jenny Bryant's Happy Git with R website: https://happygitwithr.com/github-acct.html

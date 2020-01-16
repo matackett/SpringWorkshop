@@ -7,7 +7,7 @@ Today’s Date
 
 </div>
 
-## Getting Started
+## Yay we’ve started\!
 
 If you have not ever used GitHub, you will first need to go in and
 create an account. Look at the guidlines on Jenny Bryant’s Happy Git
@@ -178,15 +178,13 @@ data(diamonds)
 head(diamonds)
 ```
 
-    ## # A tibble: 6 x 10
-    ##   carat cut       color clarity depth table price     x     y     z
-    ##   <dbl> <ord>     <ord> <ord>   <dbl> <dbl> <int> <dbl> <dbl> <dbl>
-    ## 1 0.23  Ideal     E     SI2      61.5    55   326  3.95  3.98  2.43
-    ## 2 0.21  Premium   E     SI1      59.8    61   326  3.89  3.84  2.31
-    ## 3 0.23  Good      E     VS1      56.9    65   327  4.05  4.07  2.31
-    ## 4 0.290 Premium   I     VS2      62.4    58   334  4.2   4.23  2.63
-    ## 5 0.31  Good      J     SI2      63.3    58   335  4.34  4.35  2.75
-    ## 6 0.24  Very Good J     VVS2     62.8    57   336  3.94  3.96  2.48
+    ##   carat       cut color clarity depth table price    x    y    z
+    ## 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
+    ## 2  0.21   Premium     E     SI1  59.8    61   326 3.89 3.84 2.31
+    ## 3  0.23      Good     E     VS1  56.9    65   327 4.05 4.07 2.31
+    ## 4  0.29   Premium     I     VS2  62.4    58   334 4.20 4.23 2.63
+    ## 5  0.31      Good     J     SI2  63.3    58   335 4.34 4.35 2.75
+    ## 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
 
 To do so, once again, you can
 
@@ -243,7 +241,8 @@ This command should output `[1] 53940 10`, indicating that there are
 53940 rows or observations and 10 columns or fieldnames. columns (we’ll
 get to what the `[1]` means in a bit), just as it says next to the
 object in your workspace. You can see the names of these columns (or
-variables) by typing:
+variables) by
+    typing:
 
 ``` r
 names(diamonds)
@@ -312,10 +311,20 @@ dataset with a ‘?’ in front of it.
 ?diamonds
 ```
 
+    ## Help on topic 'diamonds' was found in the following packages:
+    ## 
+    ##   Package               Library
+    ##   openintro             /usr/local/lib/R/site-library
+    ##   ggplot2               /usr/local/lib/R/site-library
+    ## 
+    ## 
+    ## Using the first match ...
+
 You should see the documentation on the dataset in the Help window. Try
 out the other tabs there briefly.  
 We can access the data in a single column of a data frame separately
-using a command like
+using a command
+    like
 
 ``` r
 diamonds$clarity[1:100]
@@ -329,7 +338,7 @@ diamonds$clarity[1:100]
     ##  [71] VVS1 SI1  SI1  SI1  SI1  VVS2 VVS2 VVS2 VVS2 VVS1 VVS1 VVS1 VVS2 SI2 
     ##  [85] VVS1 VVS1 VVS1 VVS1 VVS2 SI1  SI1  SI2  VS2  VS2  SI2  VS2  VS1  SI2 
     ##  [99] SI1  SI1 
-    ## Levels: I1 < SI2 < SI1 < VS2 < VS1 < VVS2 < VVS1 < IF
+    ## Levels: I1 IF SI1 SI2 VS1 VS2 VVS1 VVS2
 
 This command will only show the value of clarity of the diamonds
 measured in this dataset. The dollarsign basically says “go to the data
@@ -590,10 +599,8 @@ diamonds %>%
   summarise(mean = mean(price), sd = sd(price), median = median(price))
 ```
 
-    ## # A tibble: 1 x 3
-    ##    mean    sd median
-    ##   <dbl> <dbl>  <dbl>
-    ## 1 3933. 3989.   2401
+    ##     mean      sd median
+    ## 1 3932.8 3989.44   2401
 
 ## Resources for learning R and working in RStudio
 
