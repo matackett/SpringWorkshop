@@ -115,7 +115,7 @@ You will use the use_git_config() function from the usethis package.
 Type the following lines of code in the console in RStudio filling in your name and email address.
 
 The email address is the one tied to your GitHub account.
-```{r get your github congfigured}
+```{r get your github congfigured, eval = F}
 library(usethis)
 use_git_config(user.name = "GitHub username", user.email="your email")
 ```
@@ -132,8 +132,9 @@ To get you started, run the following command to load the data and to inspect th
 
 ```{r load-diamonds-data}
 data(diamonds)
-#That command loaded the file.  The next one shows you the first ten rows.  
-diamonds
+#That command loaded the file.  The next one shows you the first few rows.
+
+head(diamonds)
 ```
 
 To do so, once again, you can 
@@ -149,7 +150,8 @@ This command instructs R to load some data.  You should see that the workspace a
 
 
 
-```{r view-data}
+```{r view-data, eval = F}
+#type the following in the console to view the whole dataset.
 diamonds
 ```
 
