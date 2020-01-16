@@ -17,9 +17,9 @@ Create your git account and make sure you write down your username and
 password.
 
 Now in github.com, search for the repository here:
-<https://github.com/joan-combs-durso/SpringWorkshop> and havd it ready.
-It’s okay to go ahead and double click on the HTML file called
-intro-r.html and follow along.
+<https://github.com/matackett/SpringWorkshop> and havd it ready. It’s
+okay to go ahead and double click on the md file called intro-r.md and
+follow along.
 
 ## Introduction
 
@@ -54,13 +54,13 @@ Your RStudio window generally has four panels. This is customizable so
 you might have changed it already. You can also drag the borders to
 resize each portion.
 
-– Source: Where R markdown files are produced and saved
+  - Source: Where R markdown files are produced and saved
 
-– Console: Where live R code is run; cannot be saved
+  - Console: Where live R code is run; cannot be saved
 
-– Environment: Where R objects live and are stored
+  - Environment: Where R objects live and are stored
 
-– Utility: Where directories, plots, packages, and help can be found
+  - Utility: Where directories, plots, packages, and help can be found
 
 Your R Markdown file (this document) is in the upper left panel. (Note
 that the workshop facilitators walked you through getting that file into
@@ -628,21 +628,21 @@ and resources helpful.
     names in your search query. For example, instead of googling
     “scatterplot in R”, google “scatterplot in R with ggplot2”.
 
-\-There is a terrific resource on Medium called Towards Data Science,
-and you can find good information there, although you may have a limited
-number of free articles to read.
-<https://towardsdatascience.com/data-science/home>
+  - There is a terrific resource on Medium called Towards Data Science,
+    and you can find good information there, although you may have a
+    limited number of free articles to read.
+    <https://towardsdatascience.com/data-science/home>
 
-\-Do a quick search on “Free books on R” and you will find a huge array
-of choices.
+  - Do a quick search on “Free books on R” and you will find a huge
+    array of choices.
 
-\-Lots of R users post their own guides that you can find by searching.
-Here’s one from David Romney at Harvard:
-<https://scholar.harvard.edu/dromney/online-resources-learning-r>
+  - Lots of R users post their own guides that you can find by
+    searching. Here’s one from David Romney at Harvard:
+    <https://scholar.harvard.edu/dromney/online-resources-learning-r>
 
-\-The r-statistics blog is very helpful: <https://www.r-statistics.com/>
-In fact, you will find that the R community by its very nature is
-beginner friendly.
+  - The r-statistics blog is very helpful:
+    <https://www.r-statistics.com/> In fact, you will find that the R
+    community by its very nature is beginner friendly.
 
 You can attend as much of the RStudio Conference that you want, by
 joining our RStudio conference livestream watch party on January 29 and
