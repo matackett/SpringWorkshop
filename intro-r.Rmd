@@ -2,7 +2,7 @@
 author: " Your Name"
 date: "Today's Date"
 title: "Introduction for students new to R and RStudio"
-output: html_document
+output: github_document
 ---
 
 <div class="instructions">
